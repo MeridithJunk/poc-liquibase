@@ -16,7 +16,7 @@ The `InfrastructureDeployer` class wraps calls to the Azure CLI to deploy the pr
 2. Execute the `DataProduct` application. It will run `az deployment group create` using the included `main.bicep` template.
 
 ```bash
-# Build and run (requires .NET SDK)
+# Build and run (requires .NET 9 SDK)
 dotnet run --project src/DataProduct/DataProduct.csproj
 ```
 
